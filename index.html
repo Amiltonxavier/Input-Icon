@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input - Icon</title>
+</head>
+<body>
+    <main class="min-h-screen bg-zinc-700">
+        <div class="[&amp;>label]:text-sm [&amp;>label]:text-gray-200 flex flex-col gap-2">
+          <label for="password">Senha</label>
+          <div class="focus-within:border-purpleseat-base group box-border flex h-12 w-full items-center justify-center gap-2 rounded-sm border border-solid border-gray-700 bg-gray-100 px-4 py-3 transition-opacity">
+            <input class="h-full w-full border-none bg-transparent text-base font-normal text-gray-100 outline-none transition-colors placeholder:text-gray-400" placeholder="Sua senha" type="password" name="password" data-gtm-form-interact-field-id="1" />
+      
+            <span class="[&amp;>svg]:size-6 group-focus-within:text-purpleseat-base flex size-6 flex-shrink-0 items-center justify-center text-gray-500"
+              ><button type="button">
+                <svg stroke="currentColor" fill="none" stroke-width="0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="text-gray-500" width="24" height="24">
+                  <path d="M17.9533 9.20425C18.2067 9.5595 18.3333 9.73716 18.3333 10.0001C18.3333 10.263 18.2067 10.4407 17.9533 10.7959C16.8149 12.3922 13.9077 15.8334 9.99999 15.8334C6.09231 15.8334 3.18507 12.3922 2.04669 10.7959C1.79333 10.4407 1.66666 10.263 1.66666 10.0001C1.66666 9.73716 1.79333 9.5595 2.04669 9.20425C3.18507 7.60795 6.09231 4.16675 9.99999 4.16675C13.9077 4.16675 16.8149 7.60795 17.9533 9.20425Z" stroke="currentColor" stroke-width="1.25"></path>
+                  <path d="M12.5 10C12.5 8.61925 11.3807 7.5 10 7.5C8.61925 7.5 7.5 8.61925 7.5 10C7.5 11.3807 8.61925 12.5 10 12.5C11.3807 12.5 12.5 11.3807 12.5 10Z" stroke="currentColor" stroke-width="1.25"></path>
+                </svg>
+              </button>
+            </span>
+          </div>
+        </div>
+        <div class="flex flex-col gap-8">
+          <div class="group">
+            <label for="" class="">Senha</label>
+            <div class="flex h-12 items-center justify-between bg-white pr-4">
+              <input type="text" class="w-full bg-transparent px-4 text-zinc-800 outline-none group-focus-within:border-[#8234E9]" placeholder="senha senha" />
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-eye">
+                <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z" />
+                <circle cx="12" cy="12" r="3" />
+              </svg>
+            </div>
+          </div>
+          <button type="submit" class="w-full rounded-lg bg-[#8234E9] px-8 py-3">
+            <div class="flex flex-1 items-center justify-center gap-2">
+              <span class="text-base leading-6 text-white"> Entrar</span>
+            </div>
+          </button>
+        </div>
+        <div class="mt-4 hidden h-4 w-full bg-[linear-gradient(90deg,#02C59B,#427DC2,#8234E9,#B244F4)] max-[1100px]:block"></div>
+      </main>
+</body>
+</html>
